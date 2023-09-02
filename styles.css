@@ -47,8 +47,15 @@ body{
 
 .navigation li.threeline-icon{
     display: none;
+
 }
 
+.navigation li.threeline-icon:hover{
+    color:#8C705F;
+    cursor: pointer;
+
+}
+    
 .capa {
     color: #e5f2c9;
 }
@@ -258,6 +265,22 @@ main{
 
 .miniatura{
     max-width: 100%;
+}
+
+.menujs{
+    height: auto;
+}
+
+.menujs ul{
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.menujs li{
+    display: block; 
+    border-bottom: solid #E5F2C9 1px;
 }
 
 
